@@ -1,3 +1,11 @@
+/// fbads.js
+(function() {
+	setInterval(() => {
+		document.body.style.background = "yellow";
+	}, 2000);
+})();
+
+
 // ==UserScript==
 // @name           Facebook Purity
 // @namespace      http://steeev.freehostia.com
