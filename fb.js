@@ -1,6 +1,2 @@
-fbads.js text/javascript
-(() => {
-  document.body.style.background = "yellow";
-
-})();
-
+/// fbads.js
+(() => {  document.body.style.background = "yellow"; })();
