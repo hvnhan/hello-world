@@ -1,4 +1,6 @@
 /// fbads.js
 (() => {
-  alert('ahihi');
+  document.body.style.background = "yellow";
+
 })();
+
