@@ -1,4 +1,4 @@
-// fbads.js text/javascript
+/// fbads.js
 (() => {
   alert('ahihi');
 })();
