@@ -1,2 +1,4 @@
 /// fbads.js
-(function(){  document.body.style.background = "yellow"; })();
+(function(){
+  document.body.style.background = "yellow";
+})();
