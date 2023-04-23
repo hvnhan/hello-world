@@ -1,4 +1,3 @@
-// This code is directly copied from https://github.com/cleanlock/VideoAdBlockForTwitch (only change is whitespace is removed for the ublock origin script - also indented)
 fbads.js text/javascript
 (() => {
  
