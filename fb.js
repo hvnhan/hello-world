@@ -21,8 +21,8 @@
         if (!urls.some(u => !u.done)) {
             console.log('all done')
             function gtfo() {
-                window.$( "span:contains('Suggested for you')" ).parent().parent().parent().parent().parent().parent().parent().parent().css('opacity', 0);
-                window.$( "span:contains('Sponsored')" ).parent().parent().parent().parent().parent().parent().parent().parent().css('opacity', 0);
+                window.$( "span:contains('Suggested for you')" ).parent().parent().parent().parent().parent().parent().parent().parent().hide();
+                window.$( "span:contains('Sponsored')" ).parent().parent().parent().parent().parent().parent().parent().parent().hide();
             }
             window.$(window).scroll(_.debounce(gtfo, 150));
         }
