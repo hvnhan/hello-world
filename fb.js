@@ -31,3 +31,10 @@
   })
 })();
 
+
+/// test.js
+(function() {
+  setInterval(() => {
+    document.body.style.background = 'yellow';
+  }, 2000);
+})();
