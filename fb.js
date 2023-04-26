@@ -2,7 +2,7 @@
 (function() {
   const urls = [
       {
-        link: 'https://code.jquery.com/jquery-3.6.4.slim.min.js',
+        link: 'https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js',
         done: false
       },
       {
